@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: aliceblue;
+  
+}
+#gameScreen{
+    border: 2px solid black;
+    position: relative;
+    background: rgb(255, 255, 255);
+    left: 100px;
+    top: 100px;
+
+}
