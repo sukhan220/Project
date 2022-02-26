@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <style>
+    #canvas,#pastcanvas{
+        border: 5px solid blueviolet;
+    }
+    </style>
+</head>
+<body>
+
+    <div>
+        <ul>
+            <li onclick="circleDraw()">cricle</li>
+            <li onclick="rectangleDraw()">Rect</li>
+            <li onclick="lineDraw()">Line</li>
+            <li onclick="clearCanvas()">Clear</li>
+            <input type="button" value="Save" onclick="copyCanvas()">
+        </ul>
+    </div>
+
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <!-- <canvas id="pastcanvas" class="some-class-selector" width="100" height="100"></canvas> -->
+</body>
+<script src="todolist.js"></script>
+</html>

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#canvas{
+    position:absolute;
+    top: 100px;
+    left: 100px;
+    border: 1px solid gray;
+}
+@media only screen and (max-width: 700px) {
+    #canvas{
+        top: 2px;
+        left: 2px;
+        width: 90vw;
+        height: 90vh;
+    }
+  }
